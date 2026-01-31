@@ -21,3 +21,9 @@ export function editCompleted(itemId) {
   });
   render();
 }
+export function removeItem(itemId) {
+  items = items.filter((item) => item.id !== itemId);
+  render();
+  setTimeout(() => alert("Item Deleted Successfully!"), 0);
+}
+
