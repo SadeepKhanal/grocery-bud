@@ -39,23 +39,20 @@ form h2 {
   background: #0e7490;
 
 }
-@media (max-width: 520px) {
+@media (max-width: 500px) {
   .form-control {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.8rem;
-    align-items: stretch;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 
   .form-input {
-    width: 100%;
-    padding: 0.65rem;
-    font-size: 0.95rem;
+    border-radius: 0.25rem;
   }
 
-  .btn {
+  .form-control .btn {
     width: 100%;
-    padding: 0.7rem;
-    font-size: 0.95rem;
+    border-radius: 0.25rem;
   }
 }
+
+
