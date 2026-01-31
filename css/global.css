@@ -22,4 +22,12 @@ body {
   border-radius: 0.25rem;
   padding: 2rem;
   position: relative;
+
+}
+@media screen and (max-width: 520px) {
+  .section-center {
+    padding: 1rem;
+    width: 95%;
+    margin: 0 auto;
+  }
 }
