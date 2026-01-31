@@ -37,4 +37,25 @@ form h2 {
 
 .form-control .btn:hover {
   background: #0e7490;
+
+}
+@media (max-width: 520px) {
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    align-items: stretch;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 0.65rem;
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 0.95rem;
+  }
 }
