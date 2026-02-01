@@ -10,6 +10,8 @@ export function createForm() {
         type="text"
         class="form-input"
         placeholder="e.g. eggs"
+        value="${itemToEdit ? itemToEdit.name : ""}"
+      />
       />
      <button type="submit" class="btn">
         ${editId ? "edit item" : "add item"}
@@ -39,3 +41,4 @@ export function createForm() {
   return form;
 
 }
+
